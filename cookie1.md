@@ -19,7 +19,7 @@ Solução
 Para resolver o desafio era necesssário iniciar o launch instance, e clicar no link disponibilazado e fazer o login.
 Com o login feito, a pagina te gerava uma dica, instigando o usuário a verificar seus cookie.
 
-<img src="acesso.png" alt= .  >
+[![acesso.png](https://i.postimg.cc/QC44273D/acesso.png)](https://postimg.cc/30GFpdNf)
 
 
 Para verificação dos cookie, era necessário, ir nos tres  pontos do canto superior direito do site << mais ferramentas << console e digitar "document.cookie" e então se obitinha um codigo, no qual não era possivel decifrar, indicando ser uma mensagem cripitograda, com isso, utilizando o site CyberChef, era necessario copiar e colar o código no input do site, e com base nas características do codigo, era necessário aplicar filtro de URL decore,que ajudava na descodificação do codigo, e base64 assim  conseguia a flag.
@@ -29,12 +29,12 @@ Para entender mais, sobre base64 <a href= "https://tryhackme.com/p/base64">cliqu
 </p>      
 
 flag
-<img src="resultado.png" alt= .  >
-
+[![resultado.png](https://i.postimg.cc/rwWjJ3KM/resultado.png)](https://postimg.cc/75HSPB3W)
 
 Conclusão
 
 
 Com esse desafio podemos aprender melhor sobre como verificar um cookie, além de aprofundar um pouco mais em descodificação e como é uma base64.
+
 
 
