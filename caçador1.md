@@ -19,7 +19,7 @@ Ao iniciar a instância do desafio, foi possível baixar o código e verificá-l
 
 Primeiro, rodei o código no terminal como mostrava no desafio e, então, percebi a oportunidade de manipular o código na parte em que ele me pedia para digitar algo após o Crowd.
 
-<img src="crowd.png" alt= .  >
+[![crowd.png](https://i.postimg.cc/xCs38SFy/crowd.png)](https://postimg.cc/BLKK7R3X)
 
 
 Para que o programa me mostrasse o trecho secret_intro, digitei um conjunto de letras, que pode ser qualquer coisa, seguido de **; RETURN 0**.
@@ -28,11 +28,12 @@ Para que o programa me mostrasse o trecho secret_intro, digitei um conjunto de l
 
 O ponto e vírgula **;** serve para separar comandos. Ele faz com que o programa execute o que veio antes (o conjunto de letras, que foi ignorado) e, em seguida, execute o comando **RETURN 0**. Este comando é usado para forçar o programa a pular para a linha **0** (o início do código), e não para o [VERSE1]. Com isso, obtivemos nossa flag.
 
-<img src="resultado crow.png" alt= .  >
+[![resultado-crow.png](https://i.postimg.cc/sDG4jqP7/resultado-crow.png)](https://postimg.cc/4mZ9w8Sx)
 
 
 
 **Conclusão**
+
 
 
 Neste desafio, aprendemos um pouco mais sobre análise de código, além de encontrarmos a deixa para resolvê-lo e obter a flag.
