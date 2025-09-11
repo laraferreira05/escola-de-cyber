@@ -17,8 +17,7 @@ Após baixar o arquivo para o terminal, utilizei o comando **cat** para visualiz
 
 Primeiro baixei o arquivo, utilizando o comando wget e copiando o url do arquivo que estava no site, com o arquivo baixado em meu terminal, dei o comando do **cat**, responsável por ajudar a ler oq está dentro do arquivo, com isso obtive minha primeira string.
 
-<img src="1.png" alt= .  >
-
+[![1.png](https://i.postimg.cc/mkzCr19B/1.png)](https://postimg.cc/8fGjK5w0)
 
 
 
@@ -28,15 +27,16 @@ Após isso notei que pelas características se tratava de uma string de base64, 
 
 
 
-<img src="2.png" alt= .>
+[![2.png](https://i.postimg.cc/hvkxQ48x/2.png)](https://postimg.cc/9wBzvhnF)
 
 Este processo me deu a string final que, mesmo parecendo uma flag, estava codificada. Para desvendar a codificação, utilizei o site dCode. Ao colar a string, a própria ferramenta indicou que se tratava de uma Cifra de César, e a decodificou automaticamente, revelando a flag final.
 
-<img src="3.png" alt= flag>
+[![3.png](https://i.postimg.cc/8PvLQWDb/3.png)](https://postimg.cc/zVJyTyyL)
 
 <a href="https://www.dcode.fr/caesar-cipher">Site dCode</a>
 
 **Conclusão**
+
 
 
 Este desafio me instigou a pensar em decriptografia por etapas, aprofundando meus conhecimentos em Base64 e Cifra de César. A necessidade de ir além do que era imediatamente aparente me fez analisar o problema de forma mais aprofundada, demonstrando a importância de identificar diferentes camadas de criptografia.
