@@ -1,6 +1,6 @@
 Natas.md
 
-O site Natas [clique aqui para acessar]("https://overthewire.org/wargames/natas/natas0.html"),disponibiliza diversos desafios de segurança web (Wargames). A cada nível, o usuário deve encontrar a senha para o próximo estágio. O nome de usuário segue o padrão natas + número do nível (ex: natas0), e a dificuldade aumenta progressivamente, exigindo que as habilidades do jogador vão se aprimorando.
+O site Natas [clique aqui para acessar](https://overthewire.org/wargames/natas/natas0.html),disponibiliza diversos desafios de segurança web (Wargames). A cada nível, o usuário deve encontrar a senha para o próximo estágio. O nome de usuário segue o padrão natas + número do nível (ex: natas0), e a dificuldade aumenta progressivamente, exigindo que as habilidades do jogador vão se aprimorando.
 
 *Natas 0 --> Natas 1*
 
@@ -164,4 +164,5 @@ senha  secreta: oubWYf2kBq
 senha 9: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
 
 Conclui que com esses desafios iniciais do Natas consolidaram os fundamentos da exploração web. Começando pela análise de Código Fonte e Robots.txt, avancei para a exploração de vulnerabilidades críticas como Listagem de Diretóriose manipulação de Cookies e Headers HTTP.
+
 A prática comprovou que validações feitas apenas no lado do cliente são inseguras e que a Engenharia Reversa é essencial para entender a lógica do servidor.
