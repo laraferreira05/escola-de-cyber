@@ -12,7 +12,7 @@ Ao logar, vemos a mensagem:
 
         "You can find the password for the next level on this page." (Você pode encontrar a senha para o próximo nível nesta página.)
 
-A senha não está visível no texto da tela. A técnica básica de reconhecimento web é verificar o Código Fonte (Source Code). Como o navegador interpreta o HTML para mostrar a página bonita, ele esconde comentários e tags que contêm informações valiosas.
+A senha não está visível no texto da tela. A técnica básica de reconhecimento web é verificar o Código Fonte. Como o navegador interpreta o HTML para mostrar a página bonita, ele esconde comentários e tags que contêm informações valiosas.
 Ao inspecionar o código (pressionando Ctrl+U ou clicando com o botão direito --> "Exibir código-fonte"), encontrei a senha escondida dentro de um comentário HTML.
 
 Senha level 1: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
@@ -166,3 +166,4 @@ senha 9: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
 Conclui que com esses desafios iniciais do Natas consolidaram os fundamentos da exploração web. Começando pela análise de Código Fonte e Robots.txt, avancei para a exploração de vulnerabilidades críticas como Listagem de Diretóriose manipulação de Cookies e Headers HTTP.
 
 A prática comprovou que validações feitas apenas no lado do cliente são inseguras e que a Engenharia Reversa é essencial para entender a lógica do servidor.
+
