@@ -14,7 +14,7 @@ Caminho do Arquivo: /etc/natas_webpass/natas10 (padrão dos desafios anteriores)
 Com a lógica pensada inseri o seguinte comando na barra de pesquisa: ; cat /etc/natas_webpass/natas10
 
 O servidor tentou executar a busca original, mas logo em seguida executou o comando injetado, exibindo a senha do Natas 10 na tela.
-imagem
+
 senha nivel 10: t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
 
 *Natas 10 --> Natas 11*
@@ -91,3 +91,4 @@ O payload final ficou: " OR 1=1 #. Inseri este comando no campo de usuário e co
 
 
 senha natas 15: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
+
