@@ -15,6 +15,7 @@ Ao logar, vemos a mensagem:
 A senha não está visível no texto da tela. A técnica básica de reconhecimento web é verificar o Código Fonte. Como o navegador interpreta o HTML para mostrar a página bonita, ele esconde comentários e tags que contêm informações valiosas.
 Ao inspecionar o código (pressionando Ctrl+U ou clicando com o botão direito --> "Exibir código-fonte"), encontrei a senha escondida dentro de um comentário HTML.
 
+
 Senha level 1: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 
 *Natas 1 --> Natas 2*
@@ -26,6 +27,9 @@ Ao acessar o Nível 1 com a senha obtida, deparamos com a seguinte mensagem:
 
 O desenvolvedor tentou "proteger" o código fonte utilizando um script simples em JavaScript que intercepta o clique do botão direito do mouse. No entanto, isso é uma proteção apenas visual.
 Para contornar isso, não dependemos do mouse. Utilizei o atalho de teclado Ctrl + U. Isso abre o visualizador de código fonte do navegador, ignorando totalmente o bloqueio de script da página, assim então conseguindo a senha ro nível 2.
+
+https://github.com/laraferreira05/escola-de-cyber/issues/1#issue-3678035022
+
 
 senha level 2: TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI 
 
@@ -166,4 +170,5 @@ senha 9: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
 Conclui que com esses desafios iniciais do Natas consolidaram os fundamentos da exploração web. Começando pela análise de Código Fonte e Robots.txt, avancei para a exploração de vulnerabilidades críticas como Listagem de Diretóriose manipulação de Cookies e Headers HTTP.
 
 A prática comprovou que validações feitas apenas no lado do cliente são inseguras e que a Engenharia Reversa é essencial para entender a lógica do servidor.
+
 
