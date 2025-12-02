@@ -1,4 +1,6 @@
 Natas2.md
+O site Natas [clique aqui para acessar](https://overthewire.org/wargames/natas/natas0.html),disponibiliza diversos desafios de segurança web (Wargames). A cada nível, o usuário deve encontrar a senha para o próximo estágio. O nome de usuário segue o padrão natas + número do nível (ex: natas0), e a dificuldade aumenta progressivamente, exigindo que as habilidades do jogador vão se aprimorando, este documento registra a resolução apartir do natas 9;
+
 
 *Natas 9 --> Natas 10*
 
@@ -118,5 +120,9 @@ O payload final ficou: " OR 1=1 #. Inseri este comando no campo de usuário e co
 
 
 senha natas 15: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
+
+A conclusão central é que a segurança de uma aplicação começa onde termina a confiança no usuário. Os desafios de 9 a 15 demonstraram que a ausência de filtros rígidos, transforma formulários inofensivos em armas contra o servidor, permitindo desde o roubo de dados até o controle total do sistema. A regra de ouro aprendida é: 
+
+        tratar todo dado externo como potencialmente malicioso é a única defesa eficaz contra a exploração de vulnerabilidades
 
 
